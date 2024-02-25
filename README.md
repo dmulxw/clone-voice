@@ -58,7 +58,9 @@ https://github.com/jianchang512/clone-voice/assets/3378335/4e63f2ac-cc68-4324-a4
 0. 要求 python 3.9->3.11
 1. 创建空目录，比如 E:/clone-voice, 在这个目录下打开 cmd 窗口，方法是地址栏中输入 `cmd`, 然后回车。
 使用git拉取源码到当前目录 ` git clone git@github.com:jianchang512/clone-voice.git . `
+
 2.设置系统PATH:%USERPROFILE%\AppData\Local\Programs\Python\Python311
+	进入E:/clone-voice
 3. 创建虚拟环境 `python -m venv venv`
 4. 激活环境，win下 `E:/clone-voice/venv/scripts/activate`，
 5. 安装依赖: `pip install -r requirements.txt`
