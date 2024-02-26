@@ -56,15 +56,15 @@ https://github.com/jianchang512/clone-voice/assets/3378335/4e63f2ac-cc68-4324-a4
 **源码版需要在 .env 中 HTTP_PROXY=设置代理(比如http://127.0.0.1:7890)，要从 https://huggingface.co https://github.com 下载模型，而这个网址国内无法访问，必须保证代理稳定可靠，否则大模型下载可能中途失败**
 
 0. 要求 python 3.9->3.11
-1. 创建空目录，比如 E:\clonevoice, 进入这个目录，并在这个目录下打开 cmd 窗口，方法是地址栏中输入 `cmd`, 然后回车，或者shift + 右键点击这个目录选择在此处打开窗口。
-使用git拉取源码到当前目录 ` git clone git@github.com:dmulxw/clone-voice.git . `
+1. 创建空目录，比如 D:\clonevoice, 进入这个目录，并在这个目录下打开 cmd 窗口，方法是地址栏中输入 `cmd`, 然后回车，或者shift + 右键点击这个目录选择在此处打开窗口。
+使用git拉取源码到当前目录 ` git clone git@github.com:jianchang512/clone-voice.git . `
 
 
 2.设置系统PATH:%USERPROFILE%\AppData\Local\Programs\Python\Python311
-	进入E:\clone-voice
+	进入D:\clone-voice
  
 3. 创建虚拟环境 `python -m venv venv`
-4. 激活环境，win下 `E:\clonevoice\venv\scripts/activate`，
+4. 激活环境，win下 `D:\clonevoice\venv\scripts/activate`，
 5. 安装依赖: `pip install -r requirements.txt`（这里需要科学上网工具）
 6. win下解压 ffmpeg.7z，将其中的`ffmpeg.exe`和`app.py`在同一目录下, linux和mac 到 [ffmpeg官网](https://ffmpeg.org/download.html)下载对应版本ffmpeg，解压其中的`ffmpeg`程序到根目录下，必须将可执行二进制文件 `ffmpeg` 和app.py放在同一目录下。
 
